@@ -222,9 +222,9 @@ cascadiad tx staking create-validator \
 --pubkey=$(cascadiad tendermint show-validator) \
 --moniker=$CASCADIA_MONIKER \
 --chain-id=$CASCADIA_CHAIN_ID \
---identity=0C2BEA0F434BCBA8 \
---details="I have more than 3 year of experience in running validators and nodes in blockchain projects" \
---website="https://github.com/Insomnia34" \
+--identity= \
+--details="" \
+--website="" \
 --gas auto \
 --gas-adjustment=1.2 \
 --gas-prices=7aCC \
